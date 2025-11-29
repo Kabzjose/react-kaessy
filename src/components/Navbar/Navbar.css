@@ -21,3 +21,7 @@ nav ul li{
     margin:5px 20px;
     font-size: 16px;
 }
+.dark-nav{
+    background-color: rgba(66, 68, 214, 0.863);
+    transition: 0.5s;
+}

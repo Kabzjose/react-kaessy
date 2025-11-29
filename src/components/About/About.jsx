@@ -6,11 +6,11 @@ const About = () => {
   return (
     <div className='about'>
       <div className="about-left">
-        <img src={about_img} alt="" className='about.img' />
+        <img src={about_img} alt="" className='about-img' />
         <img src={play_icon} alt="" className='play-icon' />
       </div>
        <div className="about-right">
-            <h3>About University</h3>
+            <h3>ABOUT UNIVERSITY</h3>
             <h2>Nurturing Tomorrow's Leaders Today</h2>
             <p>Embark on a transformative educational journey with our
                university's comprehensive educational programs. Our cutting-edge

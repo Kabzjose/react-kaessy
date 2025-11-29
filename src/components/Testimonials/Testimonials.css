@@ -1,0 +1,34 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+}
+.next-btn, .back-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #212ea0;
+    width: 40px;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    right: 0%;
+}
+ .back-btn{
+    right: auto;
+    left: 0;
+ }
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
