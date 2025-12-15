@@ -40,3 +40,17 @@
     opacity: 1;
     padding-top: 0%;
 }
+
+@media (max-width: 768px) {
+    .programs{
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .program{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .program:last-child{
+        margin-bottom: 0;
+    }
+}

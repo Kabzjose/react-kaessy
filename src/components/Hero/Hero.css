@@ -25,5 +25,19 @@ justify-content: center;
 .hero-text p{
     font-size: 20px;
     margin-bottom: 30px;
+  
     line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 18px;
+
+        margin: 15px auto 30px;
+    }
 }

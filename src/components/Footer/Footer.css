@@ -11,3 +11,18 @@
     margin-right: 20px;
     list-style: none;
 }
+@media (max-width: 600px) {
+    .footer{
+        
+        text-align: center;
+        display: block;
+    }
+    .footer ul{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .footer ul li{
+        display: block;
+        margin: 10px 0;
+    }
+}

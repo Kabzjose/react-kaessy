@@ -13,3 +13,16 @@
     width: 23%;
     border-radius: 10px;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .gallery img:last-child{
+        margin-bottom: 0;
+    }
+}
