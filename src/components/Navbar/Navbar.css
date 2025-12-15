@@ -25,3 +25,46 @@ nav ul li{
     background-color: rgba(66, 68, 214, 0.863);
     transition: 0.5s;
 }
+.menu-icon{
+   
+    display: none;
+}
+/*----media query for responsiveness----*/
+@media (max-width: 1000px){
+    .logo{
+        width: 140px;
+    }
+    nav ul li{
+        margin:10px 15px;
+        
+    }
+}
+@media (max-width: 840px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul {
+        top: 0%;
+        right: 0;
+        position: fixed;
+        background: #212ea0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+        bottom: 0%;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 45px;
+        font-size: 18px;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -200%;
+    }
+}
