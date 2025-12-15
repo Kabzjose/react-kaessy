@@ -33,11 +33,11 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_1} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Kaessy,Kenya</span>
+                            <h3>Selena Gaves</h3>
+                            <span>Edusity,Kenya</span>
                         </div>
                         </div>
-                        <p>Choosing to pursue my degree at Kaessy was one of the 
+                        <p>Choosing to pursue my degree at Edusity was one of the 
                             best decisions I've ever made. The supportive community,state-of-the-art 
                             facilities ,and commitment to academic excellence have truly exceeded my expectations.</p>
                 </div>
@@ -48,12 +48,10 @@ const Testimonials = () => {
                         <img src={user_2} alt="" />
                         <div>
                             <h3>William Jackson</h3>
-                            <span>Kaessy,Kenya</span>
+                            <span>Edusity,Kenya</span>
                         </div>
                         </div>
-                        <p>Choosing to pursue my degree at Kaessy was one of the 
-                            best decisions I've ever made. The supportive community,state-of-the-art 
-                            facilities ,and commitment to academic excellence have truly exceeded my expectations.</p>
+                        <p>Enrolling at Kaessy has been a transformative experience for my career path. The dedicated faculty acting as mentors, combined with a hands-on learning environment, has given me the confidence to succeed. It is more than just a degree; it is a launchpad for my future.</p>
                 </div>
             </li>
              <li>
@@ -61,13 +59,11 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Kaessy,Kenya</span>
+                            <h3>Jane Mwiti</h3>
+                            <span>Edusity,Kenya</span>
                         </div>
                         </div>
-                        <p>Choosing to pursue my degree at Kaessy was one of the 
-                            best decisions I've ever made. The supportive community,state-of-the-art 
-                            facilities ,and commitment to academic excellence have truly exceeded my expectations.</p>
+                        <p>The culture at Edusity is unlike anywhere else. From day one, I felt welcomed by a vibrant community that pushes you to grow. Between the diverse campus life and the challenging curriculum, I’ve found exactly the environment I needed to thrive both personally and academically.</p>
                 </div>
             </li>
              <li>
@@ -75,13 +71,11 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_4} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Kaessy,Kenya</span>
+                            <h3>Jack Smith</h3>
+                            <span>Edusity,Kenya</span>
                         </div>
                         </div>
-                        <p>Choosing to pursue my degree at Kaessy was one of the 
-                            best decisions I've ever made. The supportive community,state-of-the-art 
-                            facilities ,and commitment to academic excellence have truly exceeded my expectations.</p>
+                        <p>What stands out most about Edusity is the incredible access to resources. The innovative learning spaces and advanced technology make studying here a pleasure. The university's dedication to providing the best possible student experience is evident in every aspect of campus life.</p>
                 </div>
             </li>
         </ul>
